@@ -4,7 +4,7 @@ const ecoPlugin = () => {
   return {
     transform: (code, id) => {
       if (!id.endsWith('.eco')) return null;
-      return { code: `export default ${eco.precompile(code)}` };
+      return { code: `export default ${eco.precompile(code)}`, map: null };
     },
   };
 };
