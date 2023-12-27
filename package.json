@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-eco",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rollup plugin for eco template",
   "main": "index.js",
   "author": "KATO Keik",
